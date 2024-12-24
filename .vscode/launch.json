@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "configurations": [
+    {
+      "name": "Dev",
+      "runtimeVersion": "22.9.0",
+      "preLaunchTask": "npm: build", // npm run build
+      "runtimeArgs": ["start"], // npm run start
+      "request": "launch",
+      "runtimeExecutable": "npm",
+      "type": "node",
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
+}
